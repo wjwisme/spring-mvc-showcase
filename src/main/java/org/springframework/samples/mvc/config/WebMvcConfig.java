@@ -31,6 +31,9 @@ import org.springframework.web.util.UrlPathHelper;
 @EnableScheduling
 public class WebMvcConfig implements WebMvcConfigurer {
 
+
+
+	
 	@Override
 	public void addFormatters(FormatterRegistry registry) {
 		registry.addFormatterForFieldAnnotation(new MaskFormatAnnotationFormatterFactory());
